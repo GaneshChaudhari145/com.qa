@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21418" started-at="2018-12-27T09:02:44Z" finished-at="2018-12-27T09:03:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21418" started-at="2018-12-27T09:02:44Z" finished-at="2018-12-27T09:03:06Z">
+      <class name="initialize.NewTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:initialize.NewTest@306279ee]" name="setExtent" is-config="true" duration-ms="172" started-at="2018-12-27T09:02:44Z" finished-at="2018-12-27T09:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:initialize.NewTest@306279ee]" name="launch" is-config="true" duration-ms="5245" started-at="2018-12-27T09:02:44Z" finished-at="2018-12-27T09:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="InvalidLogincenario()[pri:0, instance:initialize.NewTest@306279ee]" name="InvalidLogincenario" duration-ms="11511" started-at="2018-12-27T09:02:50Z" description="Invalid Login Scenario" finished-at="2018-12-27T09:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogincenario -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:initialize.NewTest@306279ee]" name="afterTest" is-config="true" duration-ms="4058" started-at="2018-12-27T09:03:01Z" finished-at="2018-12-27T09:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogincenario status=SUCCESS method=NewTest.InvalidLogincenario()[pri:0, instance:initialize.NewTest@306279ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:initialize.NewTest@306279ee]" name="endReport" is-config="true" duration-ms="432" started-at="2018-12-27T09:03:05Z" finished-at="2018-12-27T09:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- initialize.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
